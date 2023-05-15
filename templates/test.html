@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas Drawing</title>
+    <style>
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-body text-center">
+        <span class="mt-5 label-text">Draw an image here</span>
+        <canvas id="canvas" width="400" height="350"></canvas>
+        <button id="save">Save</button>
+        <button id="undo">Undo</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

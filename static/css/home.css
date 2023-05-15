@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.sketchfi-navbar {
+  background: #018395 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 2px #0000004d;
+}
+.sketchfi-navbar .brand-name {
+  font: normal normal normal 21px/30px Merienda One;
+  color: #ffffff;
+}
+.sketchfi-container {
+    background: #ffffff url('../images/page-bg.svg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+}
+.sketchfi-info-card {
+  width: 445px;
+  height: 513px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 10px #00000033;
+  border-radius: 20px;
+}
+.sketchfi-image-card {
+  width: 445px;
+  height: 445px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 10px #00000033;
+  border-radius: 20px;
+}
+.upload-image-btn {
+  width: 445px;
+  height: 48px;
+  background: #018395 0% 0% no-repeat padding-box;
+  box-shadow: 0px 6px 10px #00000033;
+  border-radius: 8px;
+}
+.describe-input-field {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.describe-input-field .input-group-text {
+  font: normal normal bold 14px/18px Montserrat;
+  color: #444444;
+}
+.label-text {
+  font: normal normal normal 14px/18px Montserrat;
+  color: #444444;
+}
+.title-text {
+  font: normal normal bold 20px/28px Montserrat;
+  color: #444444;
+}
+
+.sketchfi-action-tabs {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 28px;
+  width: fit-content;
+}
+.sketchfi-tab-link {
+  border: 0;
+  font: normal normal bold 13px/16px Montserrat;
+  letter-spacing: 0px;
+  color: #444444;
+  text-decoration: none;
+}
+.sketchfi-tab-link:hover {
+  border: 0 !important;
+  color: #444444 !important;
+}
+.sketchfi-tab-link.active {
+  background-color: #018395 !important;
+  border-radius: 18px;
+  border: 0;
+  font: normal normal bold 13px/16px Montserrat;
+  color: #ffffff !important;
+}
+.instruction-section {
+  width: 420px;
+  height: 200px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.step-progress .step {
+  width: 40px;
+  height: 3px;
+  background: #01839533;
+  border-radius: 6px;
+}
+.step-progress .step.active {
+  width: 80px;
+  background: #018395;
+  border-radius: 6px;
+}
+.instruction-section::-webkit-scrollbar {
+  width: 5px;
+}
+
+.instruction-section::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.instruction-section::-webkit-scrollbar-thumb {
+  background-color: #018395;
+  border-radius: 5px;
+}
+
+.instruction-section::-webkit-scrollbar-thumb:hover {
+  background-color: #036e7c;
+}
