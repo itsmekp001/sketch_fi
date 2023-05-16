@@ -29,6 +29,7 @@
 .sketchfi-image-card {
   width: 445px;
   height: 445px;
+  border: 1px solid #cccccc;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 6px 10px #00000033;
   border-radius: 20px;
@@ -116,4 +117,22 @@
 
 .instruction-section::-webkit-scrollbar-thumb:hover {
   background-color: #036e7c;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#undo {
+  background-color: #f44336;
 }
